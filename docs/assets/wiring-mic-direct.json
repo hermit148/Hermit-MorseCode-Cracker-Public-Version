@@ -1,0 +1,108 @@
+{
+  "format": "hmc-hardware-wiring-v1",
+  "variant": "mic-direct-buttons",
+  "firmware": "Hermits-Morse-Cracker-C3-Mic-Direct-Buttons.bin",
+  "flashOffset": "0x0",
+  "voltage": 3.3,
+  "defines": {
+    "ENABLE_I2S_MIC": 1,
+    "BUTTONS_USE_MCP23017": 0,
+    "MIC_DIRECT_BOOT_CLOCK": 1
+  },
+  "components": {
+    "esp": "ESP32-C3 SuperMini, native USB",
+    "oled": "SSD1306 128x64 I2C",
+    "mic": "INMP441 breakout, left channel",
+    "piezo": "GPIO-rated 3.3 V passive piezo",
+    "rPiezo": "220 ohms",
+    "rBoot": "10 kohms REQUIRED GPIO2 pullup",
+    "rData": "100 kohms SD pulldown (if not fitted)",
+    "cMic": "100 nF mic bypass (if not fitted)",
+    "up": "Normally open switch",
+    "down": "Normally open switch",
+    "left": "Normally open switch",
+    "right": "Normally open switch",
+    "select": "Normally open switch"
+  },
+  "nets": {
+    "3V3": [
+      "esp:3V3",
+      "oled:VCC",
+      "mic:VDD",
+      "mic:CHIPEN-if-exposed",
+      "rBoot:1",
+      "cMic:1"
+    ],
+    "GND": [
+      "esp:GND",
+      "oled:GND",
+      "mic:GND",
+      "mic:L/R",
+      "cMic:2",
+      "rData:2",
+      "piezo:-",
+      "up:2",
+      "down:2",
+      "left:2",
+      "right:2",
+      "select:2"
+    ],
+    "SDA_GPIO5": [
+      "esp:5",
+      "oled:SDA"
+    ],
+    "SCL_GPIO0": [
+      "esp:0",
+      "oled:SCL"
+    ],
+    "BCLK_GPIO2": [
+      "esp:2",
+      "mic:SCK",
+      "rBoot:2"
+    ],
+    "WS_GPIO21": [
+      "esp:21",
+      "mic:WS"
+    ],
+    "DATA_GPIO20": [
+      "esp:20",
+      "mic:SD",
+      "rData:1"
+    ],
+    "BUZZER_GPIO6": [
+      "esp:6",
+      "rPiezo:1"
+    ],
+    "PIEZO_PLUS": [
+      "rPiezo:2",
+      "piezo:+"
+    ],
+    "UP_GPIO3": [
+      "esp:3",
+      "up:1"
+    ],
+    "DOWN_GPIO4": [
+      "esp:4",
+      "down:1"
+    ],
+    "LEFT_GPIO7": [
+      "esp:7",
+      "left:1"
+    ],
+    "RIGHT_GPIO10": [
+      "esp:10",
+      "right:1"
+    ],
+    "SELECT_GPIO1": [
+      "esp:1",
+      "select:1"
+    ]
+  },
+  "notes": [
+    "GPIO2 is a strapping pin: fit the external 10k pullup to 3V3. Only the microphone SCK INPUT attaches here.",
+    "Repeated 3V3, GND and signal labels are the same electrical nets.",
+    "Flash the matching image with the microphone disconnected; previous firmware may use a different pin map.",
+    "Native USB only. No UART adapter or other driver on GPIO20/21.",
+    "The physical microphone and cold-boot behavior require bench verification."
+  ]
+}

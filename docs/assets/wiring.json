@@ -1,0 +1,75 @@
+{
+  "format": "hmc-hardware-wiring-v1",
+  "variant": "direct-buttons",
+  "firmware": "Hermits-Morse-Cracker-C3-Direct-Buttons.bin",
+  "flashOffset": "0x0",
+  "voltage": 3.3,
+  "defines": {
+    "ENABLE_I2S_MIC": 0,
+    "BUTTONS_USE_MCP23017": 0,
+    "MIC_DIRECT_BOOT_CLOCK": 0
+  },
+  "components": {
+    "esp": "ESP32-C3 SuperMini",
+    "oled": "SSD1306 128x64 I2C",
+    "piezo": "GPIO-rated 3.3 V passive piezo",
+    "rPiezo": "220 ohms",
+    "up": "Normally open switch",
+    "down": "Normally open switch",
+    "left": "Normally open switch",
+    "right": "Normally open switch",
+    "select": "Normally open switch"
+  },
+  "nets": {
+    "3V3": [
+      "esp:3V3",
+      "oled:VCC"
+    ],
+    "GND": [
+      "esp:GND",
+      "oled:GND",
+      "piezo:-",
+      "up:2",
+      "down:2",
+      "left:2",
+      "right:2",
+      "select:2"
+    ],
+    "SDA_GPIO5": [
+      "esp:5",
+      "oled:SDA"
+    ],
+    "SCL_GPIO0": [
+      "esp:0",
+      "oled:SCL"
+    ],
+    "BUZZER_GPIO6": [
+      "esp:6",
+      "rPiezo:1"
+    ],
+    "PIEZO_PLUS": [
+      "rPiezo:2",
+      "piezo:+"
+    ],
+    "UP_GPIO3": [
+      "esp:3",
+      "up:1"
+    ],
+    "DOWN_GPIO4": [
+      "esp:4",
+      "down:1"
+    ],
+    "LEFT_GPIO7": [
+      "esp:7",
+      "left:1"
+    ],
+    "RIGHT_GPIO10": [
+      "esp:10",
+      "right:1"
+    ],
+    "SELECT_GPIO1": [
+      "esp:1",
+      "select:1"
+    ]
+  }
+}

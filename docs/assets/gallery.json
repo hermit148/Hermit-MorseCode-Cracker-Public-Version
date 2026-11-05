@@ -1,0 +1,302 @@
+{
+  "web": [
+    {
+      "title": "Signal desk / desktop",
+      "file": "web/station-desktop.png"
+    },
+    {
+      "title": "Pocket keyboard / desktop",
+      "file": "web/keyboard-desktop.png"
+    },
+    {
+      "title": "Connections and settings / desktop",
+      "file": "web/settings-desktop.png"
+    },
+    {
+      "title": "Morse training / desktop",
+      "file": "web/training-desktop.png"
+    },
+    {
+      "title": "Device and Bluetooth / desktop",
+      "file": "web/tools-desktop.png"
+    },
+    {
+      "title": "Signal desk / mobile",
+      "file": "web/station-mobile.png"
+    },
+    {
+      "title": "Pocket keyboard / mobile",
+      "file": "web/keyboard-mobile.png"
+    },
+    {
+      "title": "Connections and settings / mobile",
+      "file": "web/settings-mobile.png"
+    },
+    {
+      "title": "Morse training / mobile",
+      "file": "web/training-mobile.png"
+    },
+    {
+      "title": "Device and Bluetooth / mobile",
+      "file": "web/tools-mobile.png"
+    },
+    {
+      "title": "Pocket keyboard / microphone and direct buttons / desktop",
+      "file": "web/keyboard-mic-direct-desktop.png"
+    },
+    {
+      "title": "Pocket keyboard / microphone and direct buttons / mobile",
+      "file": "web/keyboard-mic-direct-mobile.png"
+    },
+    {
+      "title": "Access screen / desktop",
+      "file": "web/login-desktop.png"
+    },
+    {
+      "title": "Access screen / mobile",
+      "file": "web/login-mobile.png"
+    }
+  ],
+  "oled": [
+    {
+      "title": "HOME / ALL FOUR SECTIONS",
+      "file": "oled/01-home-all-four-sections.png",
+      "frame": 0
+    },
+    {
+      "title": "HOME / RECEIVE SELECTED",
+      "file": "oled/02-home-receive-selected.png",
+      "frame": 1
+    },
+    {
+      "title": "SEND / BACK ALWAYS VISIBLE",
+      "file": "oled/03-send-back-always-visible.png",
+      "frame": 2
+    },
+    {
+      "title": "RECEIVE / OPTIONS",
+      "file": "oled/04-receive-options.png",
+      "frame": 3
+    },
+    {
+      "title": "TOOLS / OPTIONS",
+      "file": "oled/05-tools-options.png",
+      "frame": 4
+    },
+    {
+      "title": "SETUP / OPTIONS",
+      "file": "oled/06-setup-options.png",
+      "frame": 5
+    },
+    {
+      "title": "SIGNAL SETTINGS",
+      "file": "oled/07-signal-settings.png",
+      "frame": 6
+    },
+    {
+      "title": "DISPLAY SETTINGS",
+      "file": "oled/08-display-settings.png",
+      "frame": 7
+    },
+    {
+      "title": "INPUT SETTINGS",
+      "file": "oled/09-input-settings.png",
+      "frame": 8
+    },
+    {
+      "title": "BLUETOOTH CONTROLS",
+      "file": "oled/10-bluetooth-controls.png",
+      "frame": 9
+    },
+    {
+      "title": "SYSTEM / OPTIONS",
+      "file": "oled/11-system-options.png",
+      "frame": 10
+    },
+    {
+      "title": "WRITE / SHARED DRAFT",
+      "file": "oled/12-write-shared-draft.png",
+      "frame": 11
+    },
+    {
+      "title": "WRITE / FULL + BACK KEY",
+      "file": "oled/13-write-full-back-key.png",
+      "frame": 12
+    },
+    {
+      "title": "WRITE / SEND AND STOP",
+      "file": "oled/14-write-send-and-stop.png",
+      "frame": 13
+    },
+    {
+      "title": "PRESETS / PAGE 1 + BACK",
+      "file": "oled/15-presets-page-1-back.png",
+      "frame": 14
+    },
+    {
+      "title": "PRESETS / PAGE 2",
+      "file": "oled/16-presets-page-2.png",
+      "frame": 15
+    },
+    {
+      "title": "LISTEN / MORSE KEY",
+      "file": "oled/17-listen-morse-key.png",
+      "frame": 16
+    },
+    {
+      "title": "WI-FI / ALL LOGIN DETAILS",
+      "file": "oled/18-wi-fi-all-login-details.png",
+      "frame": 17
+    },
+    {
+      "title": "HARDWARE / PAGE 1",
+      "file": "oled/19-hardware-page-1.png",
+      "frame": 18
+    },
+    {
+      "title": "HARDWARE / PAGE 5",
+      "file": "oled/20-hardware-page-5.png",
+      "frame": 19
+    },
+    {
+      "title": "DEVICE HEALTH / BACK",
+      "file": "oled/21-device-health-back.png",
+      "frame": 20
+    },
+    {
+      "title": "ABOUT / HERMIT AKA ASHWIN",
+      "file": "oled/22-about-hermit-aka-ashwin.png",
+      "frame": 21
+    },
+    {
+      "title": "EDIT SPEED / SAVE OR BACK",
+      "file": "oled/23-edit-speed-save-or-back.png",
+      "frame": 22
+    },
+    {
+      "title": "EDIT BRIGHTNESS / MAX",
+      "file": "oled/24-edit-brightness-max.png",
+      "frame": 23
+    },
+    {
+      "title": "CLEAR CONFIRMATION / DEFAULT BACK",
+      "file": "oled/25-clear-confirmation-default-back.png",
+      "frame": 24
+    },
+    {
+      "title": "BOOT SPLASH",
+      "file": "oled/26-boot-splash.png",
+      "frame": 25
+    },
+    {
+      "title": "WRITE / EMPTY",
+      "file": "oled/27-write-empty.png",
+      "frame": 26
+    },
+    {
+      "title": "HARDWARE / AUDIO STATUS",
+      "file": "oled/28-hardware-audio-status.png",
+      "frame": 27
+    },
+    {
+      "title": "CONNECTIONS / CONFIGURED STATUS",
+      "file": "oled/29-connections-configured-status.png",
+      "frame": 28
+    },
+    {
+      "title": "TELEGRAM SETUP / TOKEN + CHAT",
+      "file": "oled/30-telegram-setup-token-chat.png",
+      "frame": 29
+    },
+    {
+      "title": "DISCORD SETUP / WEBHOOK",
+      "file": "oled/31-discord-setup-webhook.png",
+      "frame": 30
+    },
+    {
+      "title": "SYSTEM / HARDWARE TESTS",
+      "file": "oled/32-system-hardware-tests.png",
+      "frame": 31
+    },
+    {
+      "title": "SECRET ENTRY / LOWERCASE + MASKED PREVIEW",
+      "file": "oled/33-secret-entry-lowercase-masked-preview.png",
+      "frame": 32
+    },
+    {
+      "title": "SECRET ENTRY / NUMBERS AND SYMBOLS",
+      "file": "oled/34-secret-entry-numbers-and-symbols.png",
+      "frame": 33
+    },
+    {
+      "title": "SECRET ENTRY / EXTRA SYMBOLS",
+      "file": "oled/35-secret-entry-extra-symbols.png",
+      "frame": 34
+    },
+    {
+      "title": "BUZZER TEST / PLAYING",
+      "file": "oled/36-buzzer-test-playing.png",
+      "frame": 35
+    },
+    {
+      "title": "MIC TEST / DISABLED",
+      "file": "oled/37-mic-test-disabled.png",
+      "frame": 36
+    },
+    {
+      "title": "MIC TEST / LIVE TONE AND LEVEL",
+      "file": "oled/38-mic-test-live-tone-and-level.png",
+      "frame": 37
+    },
+    {
+      "title": "BOOT / FIRST STAGE",
+      "file": "oled/39-boot-first-stage.png",
+      "frame": 38
+    },
+    {
+      "title": "BOOT / POST READY",
+      "file": "oled/40-boot-post-ready.png",
+      "frame": 39
+    },
+    {
+      "title": "HOME / WI-FI CONNECTED",
+      "file": "oled/41-home-wi-fi-connected.png",
+      "frame": 40
+    },
+    {
+      "title": "HOME / WI-FI CONNECTING",
+      "file": "oled/42-home-wi-fi-connecting.png",
+      "frame": 41
+    },
+    {
+      "title": "WI-FI / SCAN RESULTS",
+      "file": "oled/43-wi-fi-scan-results.png",
+      "frame": 42
+    },
+    {
+      "title": "WI-FI / SCAN BACK AND RESCAN",
+      "file": "oled/44-wi-fi-scan-back-and-rescan.png",
+      "frame": 43
+    },
+    {
+      "title": "WI-FI / CONNECTED STATUS",
+      "file": "oled/45-wi-fi-connected-status.png",
+      "frame": 44
+    },
+    {
+      "title": "WI-FI / PASSWORD REQUIRED",
+      "file": "oled/46-wi-fi-password-required.png",
+      "frame": 45
+    },
+    {
+      "title": "WI-FI / SCANNING",
+      "file": "oled/47-wi-fi-scanning.png",
+      "frame": 46
+    },
+    {
+      "title": "WI-FI / SETUP MENU",
+      "file": "oled/48-wi-fi-setup-menu.png",
+      "frame": 47
+    }
+  ]
+}

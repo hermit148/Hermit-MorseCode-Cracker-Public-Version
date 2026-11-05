@@ -1,0 +1,50 @@
+{
+  "firmware": "HMC 3.3.0",
+  "variant": "direct-buttons",
+  "features": {
+    "microphone": false,
+    "buttonWiring": "direct"
+  },
+  "board": "ESP32-C3 SuperMini",
+  "arduinoEsp32": "3.3.12",
+  "libraries": {
+    "ArduinoJson": "7.4.3",
+    "Adafruit SSD1306": "2.5.17",
+    "Adafruit GFX Library": "1.13.0",
+    "Adafruit BusIO": "1.17.4"
+  },
+  "nativeUsbCdc": true,
+  "flashBytes": 4194304,
+  "applicationOffset": "0x10000",
+  "appBytes": 1609584,
+  "partitionBytes": 3145728,
+  "timestamp": "2026-11-05T10:40:02.726Z",
+  "rebuiltTranslationUnits": 45,
+  "coreSha256": "1597e717e63d46caa0e8e2961c3a845727cce835e1394ffa0ca3f0ea8652777c",
+  "sourceHashes": {
+    "BleTools.h": "eb953dfe00ac977fd1687f13fbd373712212d6d98b9db52f14323f5df20f7931",
+    "BuildConfig.h": "36a23e5a9ec5ee8c152e3695ca507220661d612ed5aab1a8661debe1cdb855ea",
+    "ButtonBoard.h": "8267adc7372f5a955056be996966c3cdc5110ad66ef844b44534983bd18b9f8f",
+    "DeviceIdentity.h": "8c0faa04dd04a0ee7938b7664c1fbfb7745609cf97f56c9524198f32359bbf1c",
+    "DiscordCA.h": "a68a8381a2738eeaf54b338009a4322d7150861549053330209917959ca2ab09",
+    "Firmware.cpp": "40caf49ac2411f0f83602838335233328ec4e0eaa2fda6ebafb5c97e6d711ccd",
+    "KeyboardCore.h": "cd4ad47b2b7479f62f1dd2c19278a17b1b37633d3539688c561ea267fecced68",
+    "MorseCore.h": "d9395403a73e785ad99b85e9b3ba6748bd62a95f71462819101263a846e2d465",
+    "MorseStation.ino": "77d8d26c1a5506b7023663e6b8aaf6929cc97a0ddcbe42887af9839d61acf11a",
+    "NotificationCore.h": "1232a78fb51b6cd1a03dc77560c9953c11a7c90e4146e77c00a890218c4354b1",
+    "OledFont.h": "c0e736fedaaa000b21b94da95b6fc8dd6d5ce4ed9fb0221e4edcbce5672670cd",
+    "OledUI.h": "49478fd8db3c36328dbc3f54b47d2fe47b4a4a0cff4d8f7e4a5a05206c0ec2fe",
+    "partitions.csv": "5caf0e578b898ca4091dc1e7800b912c833b2a1576501ba7fa30049dafc4293a",
+    "PostTest.h": "ae56f84f1529b7792c753c8fa0e725b614309e301abd2a1983d0d9aa42d06c85",
+    "SignalTools.h": "bd3b018e23ec9511227cb7cfc6686926e1848e6e3037849d826933e6b4e23c65",
+    "TelegramCA.h": "7f8e5a5010251b32b4327c06e141b074c7b712efcba18acb36a7c41705622985",
+    "web.html": "fa114dc43f4f19692572fc7e7cf3e15a3d38be3c790d5acc653ceccddc4ba82b",
+    "WebUI.h": "27f8485d343ab41176d57786cbe39fde5f4ca2ac027d7e5a9133a9791f0a253e",
+    "WifiCore.h": "4be1b3d39259b039a7b9314a8f6fd4626ffe4bafb63cc6a17099eea7eb55b994",
+    "WifiManager.h": "cb2add22ab01a7e95195f4c3c151abb007460bcf71c2433c5b461a6f924401ff"
+  },
+  "completeImage": "Hermits-Morse-Cracker-C3-Direct-Buttons.bin",
+  "flashOffset": "0x0",
+  "mergedSha256": "aaf0e58470bbb7a8963ea2e387ec0f683b247857ac85073d4dccf753afe22efb",
+  "applicationSha256": "c15fd60e37f5d5abcdf341dcdd5e2fee34ee7155e9231755a2753575810d7eb3"
+}
